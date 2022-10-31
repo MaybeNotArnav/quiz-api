@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Question (){
+export default function Question (props){
     return(
-        <div className='main--quest'>1) What is the answer to life?</div>
+        <div className='main--quest'>{props.id+1}){props.quest}</div>
     )
 }

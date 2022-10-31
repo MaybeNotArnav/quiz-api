@@ -16,7 +16,7 @@ code {
 }
 .main{
   display: flexbox;
-  background-color: blue;
+  /* background-color: blue; */
   width: 50%;
   height:100%;
   border-radius: 25px;
@@ -37,8 +37,8 @@ code {
 .main--option{
   background-color: cadetblue;
   height: 100%;
-  /* border-bottom-left-radius:25px;
-  border-bottom-right-radius:25px; */
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,4 +78,13 @@ code {
 .main--nav>div:hover{
   background-color: black;
   color: cornflowerblue;
+}
+.main--result{
+  display: flexbox;
+  background-color: black;
+  color: aliceblue;
+  height: 15%;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 13px;
 }
